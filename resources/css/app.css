@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main{
+  	margin-top: 60px;
+  	width: 100%;
+  	text-align: center;
+}
+
+#line-container{
+	margin: auto !important;
+}
+
+form{
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+html{ 
+	background: #18181b;
+	color: white;
+}
+
+input[type='text']{
+	background: #616161;
+	border-radius: 5px !important;
+}
+
+button{
+	background: #616161 !important;
+	border-radius: 5px;
+	width: 200px;
+}
+
+.countrys{
+	text-align: left;
+	margin-top: 20px;
+	max-height: 295px;
+	position: absolute;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	background: #18181b;
+}
+
+.country{
+	padding: 5px;
+	margin: 5px;
+	font-size: 18px;
+	background: #616161;
+	width: 400px;
+	border-radius: 5px;
+}
+
+.country:hover{
+	cursor:pointer;
+}
+
+h1{
+	font-size: 22px;
+}
+
+table, tr{
+	width: 400px;
+}
+
+tr > td:first-child{
+	font-size: 30px;
+}
+
+td{
+	font-size: 18px;
+}
