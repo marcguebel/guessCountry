@@ -8,5 +8,5 @@ Each attempt can be:
 - In other cases, the distance between the two countries is indicated
 
 ## DEV
-BACK : Laravel 
+BACK : Laravel
 FRONT : TBD
